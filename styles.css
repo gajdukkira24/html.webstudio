@@ -1,0 +1,29 @@
+.hero {
+    width: 997px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(./imeges/background.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 452px;
+    color: #ffffff;
+
+}
+.header-list {
+    align-items: center;
+    display: flex;
+    gap: 90px;
+}
+.section{
+    align-items: center;
+}
+.text{
+    size: 36px;
+    align-items: center;
+}
+
+
+
