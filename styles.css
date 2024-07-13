@@ -1,21 +1,24 @@
 .hero {
-    width: 997px;
+     width: 997px;
     height: 600px;
-    margin-right: auto;
+    margin-right: 100%;
     margin-left: auto;
     background-image: url(./imeges/background.png);
-    background-position: center;
+    background-position: left;
     background-size: cover;
-    text-align: center;
+    text-align: left;
     padding-top: 80px;
     padding-left: 452px;
     color: #ffffff;
+    
 
 }
 .header-list {
-    align-items: center;
+    
     display: flex;
     gap: 90px;
+    left: 75%;
+       
 }
 .section{
     align-items: center;
@@ -24,6 +27,93 @@
     size: 36px;
     align-items: center;
 }
+.email-footer{
+    color: #2F303A;
+
+}
+.text-section {
+    width: 297px;
+    height: 42px;
+    text-align: center;
+}
 
 
+.button {
+    color: #ffffff;
+    width: 370px;
+    height: 70px;
+    top: 1432px;
+  left: 1015px;
+  background-color: #2F303ACC;
+}
 
+.button{
+  width: 370px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image:linear-gradient(
+    to right,
+    rgba(43, 74, 97, 0.87),
+    rgba(43, 74, 97, 0.87)
+  ), url("./imeges/дизайн.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fefcfc;
+  text-align: center;
+  left: 75%;
+        margin-right: 75%;
+}
+.button2 {
+        width: 370px;
+        margin-right: auto;
+        margin-left: auto;
+      
+        background-image:linear-gradient(
+          to right,
+          rgba(43, 74, 97, 0.87),
+          rgba(43, 74, 97, 0.87)
+        ), url("./imeges/моб.jpg");
+        background-position: center;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #fefcfc;
+        text-align: center;
+        left: 75%;
+        margin-right: 75%;
+      
+}
+.button1 {
+   
+        width: 370px;
+        margin-right: auto;
+        margin-left: auto;
+      
+        background-image:linear-gradient(
+          to right,
+          rgba(43, 74, 97, 0.87),
+          rgba(43, 74, 97, 0.87)
+        ), url("./imeges/комп.jpg" );
+        background-position: center;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #fefcfc;
+        text-align: center;
+        background-color: black 80%;
+        left: 75%;
+        margin-right: 75%;
+        
+}
+
+.text-hero {
+
+    width: 600px;
+    height: 14px;
+    color: #ffffff;
+    top: 280px;
+
+}
