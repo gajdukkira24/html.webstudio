@@ -8,12 +8,22 @@ body {
     font-family: inter;
 }
 
+.contayner {
+    width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
 
 .header-list {
     display: flex;
     flex-wrap: nowrap;
     gap: 45;
+    width: 160px;
+height: 8px;
+gap: 0px;
+opacity: 0px;
+
 }
 
 ul {
@@ -40,32 +50,27 @@ img {
 
 .text-hero {
     font-family: Roboto;
-    width: 696px;
-    height: 123;
-top: 29px;
-gap: 0px;
-opacity: 0px;
-font-size: 45px;
 font-weight: 900;
-line-height: 240px;
 letter-spacing: 0.08em;
 text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-weight: 900;
+line-height: 550px;
+
+
 
 }
 
 
 
 .hero {
-    width: 997px;
+    width: 1420px;
     height: 600px;
-    margin-right: 100%;
-    margin-left: auto;
     background-image: url(./imeges/background.png);
     background-position: left;
     background-size: cover;
     text-align: left;
-    padding-top: 80px;
-    padding-left: 452px;
     color: #ffffff;
 
 
@@ -97,15 +102,9 @@ text-align: center;
     fill: #ffffff;
 }
 
-.button {
-    color: #ffffff;
-    width: 370px;
-    height: 70px;
-    top: 1432px;
-    left: 1015px;
-    background-color: #2F303ACC;
 
-}
+
+
 .button {
     position: absolute;
     word-spacing: 12px;
@@ -113,7 +112,7 @@ text-align: center;
     bottom: 0;
     width: 370px;
     padding-top: 40px;
-    padding-bottom: 4px;
+    padding-bottom: 40px;
     line-height: 23px;
     width: 100%;
     color: #fefcfc;
@@ -189,11 +188,12 @@ opacity: 1px;
 }
 
 .team {
-    width: 1600x;
-    height: 700px;
-    top: 1596px;
-    gap: 99px;
-    opacity: 15px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    
 
 
 }
@@ -220,6 +220,7 @@ text-align: center;
     text-align: center;
     width: 366px;
     height: 42px;
+    gap: 45px;
 
    
 }
