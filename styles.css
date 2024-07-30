@@ -8,8 +8,23 @@ body {
     font-family: inter;
 }
 
+ul {
+    list-style-type: none;
+    margin: o;
+    padding: 0;
+
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
 .contayner {
-    width: 1500px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -26,22 +41,6 @@ opacity: 0px;
 
 }
 
-ul {
-    list-style-type: none;
-    margin: o;
-    padding: 0;
-
-}
-
-address {
-    font-style: normal;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
 img {
     display: block;
     width: 100%;
@@ -50,41 +49,33 @@ img {
 
 .text-hero {
     font-family: Roboto;
-font-weight: 900;
-letter-spacing: 0.08em;
-text-align: center;
-font-family: Roboto;
-font-size: 44px;
-font-weight: 900;
-line-height: 550px;
-
-
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+line-height: 1.36px;
 
 }
+.features {
+    display: flex;
+}
+
+
 
 
 
 .hero {
-    width: 1420px;
-    height: 600px;
+    width: 1600px;
     background-image: url(./imeges/background.png);
-    background-position: left;
+    background-position: center;
     background-size: cover;
     text-align: left;
     color: #ffffff;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
 
-}
-
-
-
-.section {
-    align-items: center;
-}
-
-.text {
-    size: 36px;
-    align-items: center;
 }
 
 .email-footer {
@@ -93,9 +84,13 @@ line-height: 550px;
 }
 
 .text-section {
-    width: 297px;
-    height: 42px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
     text-align: center;
+    
 }
 
 .hero-icon {
@@ -154,6 +149,7 @@ line-height: 550px;
 opacity: 1px;
     gap: 0 ;
     top: 23;
+    word-spacing: 0px;
     
 }
 
@@ -162,28 +158,31 @@ opacity: 1px;
     gap: 13;
     
 }
-
-
-
-
-.footer {
-    width: 145px;
-    height: 31px;
-    top: 2736px;
-    gap: 1px;
-    opacity: 1px;
-    background: #2F303A;
-
+.header-contacts {
+    display: flex;
+    margin-left: auto;
 }
 
+
+
+
+
+
+
+
 .text .text-list {
-    position: relative;
+ position: relative ;
+    opacity: 1px;
+    gap: 0;
+    top: 23;
+
     
 
 }
 
 .header-logo {
     width: 145px;
+    
 
 }
 
@@ -199,11 +198,21 @@ opacity: 1px;
 }
 
 .h2 {
-    width: 264px;
-    height: 42px;
-    top: 1690px;
-    gap: 0px;
-    opacity: 0px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+
+    
+
+
+
+}
+
+.text-li {
+
     font-family: Roboto;
 font-size: 36px;
 font-weight: 700;
@@ -213,14 +222,82 @@ text-align: center;
 
 
 
+   
 }
 
-.text-li {
+.contayner text {
+    display: flex;
+    gap: 30px;
 
-    text-align: center;
-    width: 366px;
-    height: 42px;
-    gap: 45px;
+}
 
-   
+.features-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+
+}
+
+.features-title {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+
+}
+
+.people-title {
+    color: #212121;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+letter-spacing: 0.03em;
+
+}
+
+.people-text {
+    color: #757575; 
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+letter-spacing: 0.03em;
+
+}
+
+
+
+
+.imeges3 {
+    word-spacing: 12px;
+}
+
+.footer {
+    background: #2F303A;
+    color: #ffffff;
+
+}
+
+.address {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+}
+
+.address-hero {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+
 }
