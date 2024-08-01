@@ -5,12 +5,12 @@ p {
     margin: 0;
 }
 body {
-    font-family: inter;
+    font-family: Roboto,sans-serif;
 }
 
 ul {
     list-style-type: none;
-    margin: o;
+    margin: 0;
     padding: 0;
 
 }
@@ -33,7 +33,7 @@ a {
 .header-list {
     display: flex;
     flex-wrap: nowrap;
-    gap: 45;
+    gap: 50px;
     width: 160px;
 height: 8px;
 gap: 0px;
@@ -77,13 +77,14 @@ line-height: 1.36px;
 
 .hero {
     width: 1600px;
-    background-image: url(./imeges/background.png);
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(./imeges/background.png);
     background-position: center;
     background-size: cover;
     text-align: left;
     color: #ffffff;
     padding-top: 200px;
     padding-bottom: 200px;
+    
     
 
 
@@ -157,6 +158,7 @@ line-height: 1.36px;
 
 .people {
     display: flex;
+    gap: 30px;
 
     
 }
@@ -195,11 +197,13 @@ line-height: 1.36px;
 }
 
 .team {
+    color: #000000;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
     letter-spacing: 0.03em;
+    background-color: f5f4fa;
     
 
 
@@ -312,11 +316,10 @@ letter-spacing: 0.03em;
 
 .buttons{
     display: flex;
-    font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0.03em;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+
 
 
 }
@@ -344,3 +347,43 @@ letter-spacing: 0.03em;
     width: 145px;
 }
 
+.header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+footer {
+    padding: 60px;
+    padding-top: 60px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+
+
+}
+
+.imegesport {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text
+.team
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.features {
+    padding-top: 94px;
+
+}
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
