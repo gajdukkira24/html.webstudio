@@ -39,7 +39,17 @@ height: 8px;
 gap: 0px;
 opacity: 0px;
 
+
+
 }
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
 
 img {
     display: block;
@@ -74,6 +84,7 @@ line-height: 1.36px;
     color: #ffffff;
     padding-top: 200px;
     padding-bottom: 200px;
+    
 
 
 }
@@ -141,15 +152,12 @@ line-height: 1.36px;
 
 .div {
     display: flex;
-    gap: 13;
+    gap: 30px;
 }
 
 .people {
     display: flex;
-opacity: 1px;
-    gap: 0 ;
-    top: 23;
-    word-spacing: 0px;
+
     
 }
 
@@ -331,3 +339,8 @@ line-height: 30px;
 letter-spacing: 0.03em;
 
 }
+
+.Logoweb {
+    width: 145px;
+}
+
