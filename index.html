@@ -19,8 +19,8 @@
 
     <body>
         <header>
-            <div class="contayner">
-                <a href="./index.html">WebStudio</a>
+            <div class="contayner flex">
+                <a href="./portfolio.html">WebStudio</a>
 
         
                 <ul class="header-list">
@@ -33,15 +33,40 @@
                     <li>
                         <a href="#">Контакти</a>
                     </li>
+                    <button  class="button-open" data-modal-open>Ваші контакти </button>
+                    <div class="backdrop is-hidden"data-modal>
+                        <div class="modal">
+                            <button class="modal-clouse"data-modal-close>x</button>
+                            <p class="data" >Залиште свої дані ,ми вам передзвонимо</p>
+                            <form>
+                            Ім`я : <input type="text" 
+                            name="fristname"> <br> <br>
+                            Телефон : <input type="text"
+                            name="smartphone"> <br> <br>
+                            Пошта :  <input type="text"
+                            name="email"> <br> <br>
+                            Коментар : <input type="text" class="textcom"
+                            name="comment"> <br> <br>
+                            <input type="submit" class="submit" 
+                            name="submit" value="Відправити">
+                            </form>
+
+
+                           
+
+
+                        
 
                 </ul>
                 <ul class="header-contacts">
 
                     <li>
-                        <a class="header-list" href="mailto..info@devstudio.com">info@devstudio.com</a>
+                        <a class="header-list"   href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    
                     </li>
                     <li>
-                        <a class="header-list" href="tel..+38 096 111 11 11">+38 096 111 11 11</a>
+                        <a class="header-list" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+                    
                     </li>
                 </ul>
             </div>
@@ -159,21 +184,29 @@
                     
                 </div>
         </main>
-        <footer>
-            <section class="footer">
+        <footer class="footer" >
+           
                 <div class="contayner-email-footer">
                  
                         <img class="Logoweb" src="./imeges/logo2.png" width="145" height="31">
                         <address>
                             <ul class="address1">
                                 <li><a class="address" >м. Київ, пр-т Лесі Українки, 26 </a></li>
-                                <li class="address-hero" href="mailto..info@devstudio.com">nailto:info@devstudio.com"</li>
-                                <li class="address-hero" href="tel..+38 096 111 11 11">+38 096 111 11 11</li>
+                                <li class="address-hero" href="mailto..info@devstudio.com">nailto:info@devstudio.com"</a></li>
+                                <li class="address-hero" href="tel..+38 096 111 11 11">+38 096 111 11 11</a></li>
                             </ul>
                         </address>
-                 
+                        <p class="" >підпишіться на розсидку</p>
+                         <input  text="email"   class="input"
+                            name="email"> <br> <br>
+                            <input type="submit" class="submit" 
+                            name="submit" value="підписатися">
+                        
+                            </form>
+
+            
                 </div>
-            </section>
+            <script src="./modle.js"></script>
     </body>
 
 </html>
