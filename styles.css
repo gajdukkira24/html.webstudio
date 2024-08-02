@@ -473,3 +473,21 @@ footer {
 data {
     font-size: 34px;
 }
+
+.button8  {
+  
+    color: #ffffff;
+    background-color: #3b8dd0;
+    text-align: center;
+    width: 216px;
+    height: 50px;
+    font-family: 'Roboto';
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.06em;
+
+
+    
+
+}
