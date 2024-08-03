@@ -1,493 +1,497 @@
  h1,
-h2,
-h3,
-p {
-    margin: 0;
-}
-body {
-    font-family: 'Roboto',sans-serif;
-}
+ h2,
+ h3,
+ p {
+     margin: 0;
+ }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ body {
+     font-family: 'Roboto', sans-serif;
+ }
 
-}
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
 
-address {
-    font-style: normal;
-}
+ }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
-.contayner {
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+ address {
+     font-style: normal;
+ }
 
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
 
-.header-list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 50px;
-   
-}
+ .contayner {
+     width: 1200px;
+     padding: 0 15px;
+     margin: 0 auto;
+ }
 
-.container {
-    margin:  0 auto;
-    padding: 0 15px;
-}
-
-
-
-
-
-.features-list {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-
-
-img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.text-hero {
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: center;
-line-height: 1.36;
-
-}
-.features {
-    display: flex;
-}
-
-
-
-
-
-.hero {
-    width: 1600px;
-    background-image: linear-gradient(to right, rgba(47,48,58,0.4),rgba(47,48,58,0.4)), url(./imeges/background.png);
-    background-position: center;
-    background-size: cover;
-
-    color: #ffffff;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-    
 
+ .header-list {
+     display: flex;
+     flex-wrap: nowrap;
+     gap: 50px;
 
-}
+ }
 
-.email-footer {
-    color: #2F303A;
+ .container {
+     margin: 0 auto;
+     padding: 0 15px;
+ }
 
-}
 
-.text-section {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42.19px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    
-}
-
-.hero-icon {
-    fill: #ffffff;
-}
-
-
-
-
-.button {
-    position: absolute;
-    word-spacing: 12px;
-    left: 0;
-    bottom: 0;
-    width: 370px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    line-height: 23px;
-    width: 100%;
-    color: #fefcfc;
-    background-color: rgba(0, 0, 0, 0.36)
-}
 
-
-.button-hero {
-    display: flex;
-    width: 152px;
-    height: 30px;
-    top: 440px;
-    gap: 0px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    text-align: center;
-}
-.class-ul {
-    display: flex;
-    width: 1170px;
-    height: 248px;
-    top: 774px;
-    gap: 7px;
-    opacity: 23px;
 
 
-}
+ .features-list {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+ }
 
-.div {
-    display: flex;
-    gap: 30px;
-}
 
-.people {
-    display: flex;
-    gap: 30px;
 
-    
-}
+ img {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
 
-.hero-link {
-    display: flex;
-    gap: 13;
-    
-}
-.header-contacts {
-    display: flex;
-    margin-left: auto;
-}
+ .text-hero {
+     font-size: 44px;
+     font-weight: 900;
+     line-height: 60px;
+     letter-spacing: 0.06em;
+     text-align: center;
+     line-height: 1.36;
 
+ }
 
-.flex {
-    display: flex;
-    
-}
+ .features {
+     display: flex;
+ }
 
 
 
 
-
-.text .text-list {
- position: relative ;
-    opacity: 1px;
-    gap: 0;
-    top: 23;
 
-    
+ .hero {
+     width: 1600px;
+     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imeges/background.png);
+     background-position: center;
+     background-size: cover;
+     color: #ffffff;
+     padding-top: 200px;
+     padding-bottom: 200px;
 
-}
 
-.header-logo {
-    width: 145px;
-    
 
-}
 
-.team {
-    color: #000000;
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42.19px;
-    letter-spacing: 0.03em;
-    background-color: #F5F4FA;
-    ;
-    
+ }
 
+ .email-footer {
+     color: #2F303A;
 
-}
+ }
 
-.h2 {
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 42.19px;
-    letter-spacing: 0.03em;
+ .text-section {
 
-    
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 42.19px;
+     letter-spacing: 0.03em;
+     text-align: center;
 
+ }
 
+ .hero-icon {
+     fill: #ffffff;
+ }
 
-}
 
-.text-li {
 
-    font-family: 'Roboto';
-font-size: 36px;
-font-weight: 700;
-line-height: 42.19px;
-letter-spacing: 0.03em;
-text-align: center;
 
+ .button {
+     position: absolute;
+     word-spacing: 12px;
+     left: 0;
+     bottom: 0;
+     width: 370px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+     line-height: 23px;
+     width: 100%;
+     color: #fefcfc;
+     background-color: rgba(0, 0, 0, 0.36)
+ }
 
 
-   
-}
+ .button-hero {
+     display: flex;
+     width: 152px;
+     height: 30px;
+     top: 440px;
+     gap: 0px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 30px;
+     letter-spacing: 0.06em;
+     text-align: center;
+ }
 
-.contayner text {
-    display: flex;
-    gap: 30px;
+ .class-ul {
+     display: flex;
+     width: 1170px;
+     height: 248px;
+     top: 774px;
+     gap: 7px;
+     opacity: 23px;
 
-}
 
-.features-text {
-    font-family: 'Roboto';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
+ }
 
-}
+ .div {
+     display: flex;
+     gap: 30px;
+ }
 
-.features-title {
-    font-family: 'Roboto';
-font-size: 14px;
-font-weight: 700;
-line-height: 16.41px;
-letter-spacing: 0.03em;
+ .people {
+     display: flex;
+     gap: 30px;
 
-}
 
-.people-title {
-    color: #212121;
-    font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
-line-height: 18.75px;
-letter-spacing: 0.03em;
+ }
 
-}
+ .hero-link {
+     display: flex;
+     gap: 13;
 
-.people-text {
-    color: #757575; 
-    font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 18.75px;
-letter-spacing: 0.03em;
+ }
 
-}
+ .header-contacts {
+     display: flex;
+     margin-left: auto;
+ }
 
 
+ .flex {
+     display: flex;
 
+ }
 
-.imeges3 {
-    word-spacing: 12px;
-}
 
-.footer {
-    background: #2F303A;
-    color: #ffffff;
 
-}
 
-.address {
-    font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.03em;
 
-}
+ .text .text-list {
+     position: relative;
+     opacity: 1px;
+     gap: 0;
+     top: 23;
 
-.address-hero {
-    font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.03em;
 
-}
 
-.buttons{
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-bottom: 50px;
+ }
 
+ .header-logo {
+     width: 145px;
 
 
-}
+ }
 
-.text-port{
-    font-family: Roboto;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.06em;
+ .team {
+     color: #000000;
 
-}
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 42.19px;
+     letter-spacing: 0.03em;
+     background-color: #F5F4FA;
+     ;
 
-.text-portf {
-    font-family: Roboto;
-    color: #757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.03em;
 
-}
 
-.Logoweb {
-    width: 145px;
-}
+ }
 
-.header {
-    padding-bottom: 24px;
-    padding-top: 24px;
-}
+ .h2 {
+     text-align: center;
 
-footer {
-    padding: 60px;
-    padding-top: 60px;
-}
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 42.19px;
+     letter-spacing: 0.03em;
 
-.header-contacts {
-    display: flex;
-    gap: 50px;
-    margin-left: auto;
 
 
-}
 
-.imegesport {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-}
 
-.text,
-.team,
-.clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+ }
 
-.features {
-    padding-top: 94px;
+ .text-li {
 
-}
 
-.portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 42.19px;
+     letter-spacing: 0.03em;
+     text-align: center;
 
 
 
-.backdrop {
-    top: 0;
-    left: 0;
+
+ }
+
+ .contayner text {
+     display: flex;
+     gap: 30px;
+
+ }
+
+ .features-text {
+
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     text-align: left;
+
+
+ }
+
+ .features-title {
+
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 16.41px;
+     letter-spacing: 0.03em;
+
+ }
+
+ .people-title {
+     color: #212121;
+
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 18.75px;
+     letter-spacing: 0.03em;
+
+ }
+
+ .people-text {
+     color: #757575;
+
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 18.75px;
+     letter-spacing: 0.03em;
+
+ }
+
+
+
+
+ .imeges3 {
+     word-spacing: 12px;
+ }
+
+ .footer {
+     background: #2F303A;
+     color: #ffffff;
+
+ }
+
+ .address {
+
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+
+ }
+
+ .address-hero {
+
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+
+ }
+
+ .buttons {
+     display: flex;
+     justify-content: center;
+     gap: 8px;
+     margin-bottom: 50px;
+
+
+
+ }
+
+ .text-port {
+
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 36px;
+     letter-spacing: 0.06em;
+
+ }
+
+ .text-portf {
+
+     color: #757575;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 30px;
+     letter-spacing: 0.03em;
+
+ }
+
+ .Logoweb {
+     width: 145px;
+ }
+
+ header {
+     padding-bottom: 24px;
+     padding-top: 24px;
+ }
+
+ footer {
+     padding: 60px;
+     padding-top: 60px;
+ }
+
+ .header-contacts {
+     display: flex;
+     gap: 50px;
+     margin-left: auto;
+
+
+ }
+
+ .imegesport {
+     display: flex;
+     gap: 30px;
+     flex-wrap: wrap;
+ }
+
+ .text,
+ .team,
+ .clients {
+     padding-top: 94px;
+     padding-bottom: 94px;
+ }
+
+ .features {
+     padding-top: 94px;
+
+ }
+
+ .portfolio {
+     padding-top: 94px;
+     padding-bottom: 94px;
+ }
+
+
+
+ .backdrop {
+     top: 0;
+     left: 0;
      position: fixed;
      width: 100%;
      height: 100%;
      background-color: rgba(0, 0, 0, 0.33);
      opacity: 1;
      visibility: visible;
-}
-.modal  {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    padding: 23px;
-    border-radius: 20px;
-    transform: translate(-50%, -60%);
-    
-    
-}
-.backdrop.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-    overflow: hidden;
+ }
 
-}
-
-.header-list,
-.header-contacts {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+ .modal {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     background-color: rgb(255, 255, 255);
+     width: 400px;
+     height: 400px;
+     padding: 23px;
+     border-radius: 20px;
+     transform: translate(-50%, -60%);
 
 
-}
+ }
+
+ .backdrop.is-hidden {
+     opacity: 0;
+     pointer-events: none;
+     overflow: hidden;
+
+ }
+
+ .header-list,
+ .header-contacts {
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
 
 
-.modal-clouse {
-    color: #000000;
-    background-color: #ffffff6d;
-}
-
-.name {
-    color: #524f4c;
-}
-
-.submit {
-    color: #ffffff;
-    background-color: #3b8dd0;
-    width: 177px;
-    height: 44px;
-    
-    
-}
-
-.input {
-    background: #2F303A;
-    width: 199px;
-    height: 29px;
-    color: #ffffff;
-   
-    
-}
+ }
 
 
-.textcom {
-    width:  400px;
-    height: 99px;
-}
+ .modal-clouse {
+     color: #000000;
+     background-color: #ffffff6d;
+ }
 
-data {
-    font-size: 34px;
-}
+ .name {
+     color: #524f4c;
+ }
 
-.button8  {
-  
-    color: #ffffff;
-    background-color: #3b8dd0;
-    text-align: center;
-    width: 216px;
-    height: 50px;
-    font-family: 'Roboto';
-font-size: 16px;
-font-weight: 700;
-line-height: 30px;
-letter-spacing: 0.06em;
+ .submit {
+     color: #ffffff;
+     background-color: #3b8dd0;
+     width: 177px;
+     height: 44px;
 
 
-    
+ }
 
-}
+ .input {
+     background: #2F303A;
+     width: 199px;
+     height: 29px;
+     color: #ffffff;
+
+
+ }
+
+
+ .textcom {
+     width: 400px;
+     height: 99px;
+ }
+
+ data {
+     font-size: 34px;
+ }
+
+ .button8 {
+
+     color: #ffffff;
+     background-color: #3b8dd0;
+     text-align: center;
+     width: 216px;
+     height: 50px;
+     font-size: 16px;
+     font-weight: 700;
+     line-height: 30px;
+     letter-spacing: 0.06em;
+
+
+
+
+ }

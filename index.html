@@ -10,10 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.10/modern-normalize/min/css" />
     <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.10/modern-normalize/min/css"/>
 </head>
+
 
 <body>
 
@@ -22,7 +24,7 @@
             <div class="contayner flex">
                 <a href="./portfolio.html">WebStudio</a>
 
-        
+
                 <ul class="header-list">
                     <li>
                         <a href="./index.html">Студія</a>
@@ -33,40 +35,24 @@
                     <li>
                         <a href="#">Контакти</a>
                     </li>
-                    <button  class="button-open" data-modal-open>Ваші контакти </button>
-                    <div class="backdrop is-hidden"data-modal>
-                        <div class="modal">
-                            <button class="modal-clouse"data-modal-close>x</button>
-                            <p class="data" >Залиште свої дані ,ми вам передзвонимо</p>
-                            <form>
-                            Ім`я : <input type="text" 
-                            name="fristname"> <br> <br>
-                            Телефон : <input type="text"
-                            name="smartphone"> <br> <br>
-                            Пошта :  <input type="text"
-                            name="email"> <br> <br>
-                            Коментар : <input type="text" class="textcom"
-                            name="comment"> <br> <br>
-                            <input type="submit" class="submit" 
-                            name="submit" value="Відправити">
-                            </form>
 
 
-                           
 
 
-                        
+
+
+
 
                 </ul>
                 <ul class="header-contacts">
 
                     <li>
-                        <a class="header-list"   href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    
+                        <a class="header-list" href="mailto:info@devstudio.com">info@devstudio.com</a>
+
                     </li>
                     <li>
                         <a class="header-list" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-                    
+
                     </li>
                 </ul>
             </div>
@@ -76,11 +62,14 @@
 
         <main>
             <section class="hero">
-                <div class="contayner">
-                    
-                        <h1 class="text-hero">Ефективні рішення для вашого бізнесу </h1>
 
-                        <button class="button8" >Замовити послугу</button>
+
+                <div class="contayner">
+
+                    <h1 class="text-hero">Ефективні рішення для вашого бізнесу </h1>
+
+                    <button class="button8" data-modal-open>Замовити послугу</button>
+
 
                 </div>
             </section>
@@ -88,34 +77,34 @@
 
             <section class="features">
                 <div class="contayner">
-                   
-                        <ul class="features-list">
-                            <li>
-                                <img src="./imeges/Group 1 (2).png" width="270px" height="120px">
-                                <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                                <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з
-                                    формування позиції.</p>
-                            </li>
-                            <li>
-                                <img src="./imeges/Group 2.png" width="270px" height="120px">
-                                <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
-                                <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів
-                                    тягне у себе.</p>
-                            </li>
-                            <li>
-                                <img src="./imeges/Group 3.png" width="270px" height="120px">
-                                <h3 class="features-title">ПЛАНУВАННЯ</h3>
-                                <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.
-                                </p>
-                            </li>
-                            <li>
-                                <img src="./imeges/Group 4.png" width="270px" height="120px">
-                                <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                                <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація
-                                    планових завдань.</p>
-                            </li>
-                        </ul>
-                  
+
+                    <ul class="features-list">
+                        <li>
+                            <img src="./imeges/Group 1 (2).png" width="270px" height="120px">
+                            <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="features-text">Ідейні міркування, і навіть початок повсякденної роботи з
+                                формування позиції.</p>
+                        </li>
+                        <li>
+                            <img src="./imeges/Group 2.png" width="270px" height="120px">
+                            <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="features-text">Завдання організації, особливо рамки і місце навчання кадрів
+                                тягне у себе.</p>
+                        </li>
+                        <li>
+                            <img src="./imeges/Group 3.png" width="270px" height="120px">
+                            <h3 class="features-title">ПЛАНУВАННЯ</h3>
+                            <p class="features-text">Так само консультація з широким активом значною мірою зумовлює.
+                            </p>
+                        </li>
+                        <li>
+                            <img src="./imeges/Group 4.png" width="270px" height="120px">
+                            <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація
+                                планових завдань.</p>
+                        </li>
+                    </ul>
+
                 </div>
             </section>
 
@@ -142,73 +131,95 @@
             </section>
             <section class="team">
                 <div class="contayner">
-                   
-                        <h2 class="h2">Наша команда</h2>
-                        <ul class="people">
-                            <li>
-                                <img src="./imeges/Ігор.jpg" alt="фото-Ігора"  width="270"  height="260px">
-                                <h3 class="people-title">Ігор Дем'яненко</h3>
-                                <p class="people-text">Product Designer</p>
-                            </li>
-                            <li>
-                                <img src="./imeges/img (2).png" alt="фото-Ольги"  width="270"   height="260px">
-                                <h3 class="people-title">Ольга Рєпіна</h3>
-                                <p class="people-text">Frontend Developer</p>
-                            </li>
-                            <li>
-                                <img src="./imeges/МиколаТ.jpg" alt="фото-Миколи"  width="270"    height="260px">
-                                <h3 class="people-title">Микола Тарасов</h3>
-                                <p class="people-text">Marketing</p>
-                            </li>
-                            <li>
-                                <img src="./imeges/img.png" alt="фото-Михайла"   width="270"    height="260px">
-                                <h3 class="people-title">Михайло Єрмаков</h3>
-                                <p class="people-text">UI Designer</p>
-                            </li>
-                        </ul>
-                    
+
+                    <h2 class="h2">Наша команда</h2>
+                    <ul class="people">
+                        <li>
+                            <img src="./imeges/Ігор.jpg" alt="фото-Ігора" width="270" height="260px">
+                            <h3 class="people-title">Ігор Дем'яненко</h3>
+                            <p class="people-text">Product Designer</p>
+                        </li>
+                        <li>
+                            <img src="./imeges/img (2).png" alt="фото-Ольги" width="270" height="260px">
+                            <h3 class="people-title">Ольга Рєпіна</h3>
+                            <p class="people-text">Frontend Developer</p>
+                        </li>
+                        <li>
+                            <img src="./imeges/МиколаТ.jpg" alt="фото-Миколи" width="270" height="260px">
+                            <h3 class="people-title">Микола Тарасов</h3>
+                            <p class="people-text">Marketing</p>
+                        </li>
+                        <li>
+                            <img src="./imeges/img.png" alt="фото-Михайла" width="270" height="260px">
+                            <h3 class="people-title">Михайло Єрмаков</h3>
+                            <p class="people-text">UI Designer</p>
+                        </li>
+                    </ul>
+
                 </div>
             </section>
             <section class="clients">
                 <div class="contayner">
-                   
-                        <h2 class="text-section">Постійні клієнти</h2>
-                        <ul class="hero-main">
 
-                            <li>
-                                <a class="hero-link" href="">
-                                     
-                                    <svg class="svg " width="106px" height="92px" class="hero-icon">
-                                        <use href="./imeges/Logo.svg"></use>
-                                    </svg>
+                    <h2 class="text-section">Постійні клієнти</h2>
+                    <ul class="hero-main">
 
-                        </ul>
-                    
+                        <li>
+                            <a class="hero-link" href="">
+
+                                <svg class="svg " width="106px" height="92px" class="hero-icon">
+                                    <use href="./imeges/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                        </li>
+
+                    </ul>
+
                 </div>
         </main>
-        <footer class="footer" >
-           
-                <div class="contayner-email-footer">
-                 
-                        <img class="Logoweb" src="./imeges/logo2.png" width="145" height="31">
-                        <address>
-                            <ul class="address1">
-                                <li><a class="address" >м. Київ, пр-т Лесі Українки, 26 </a></li>
-                                <li class="address-hero" href="mailto..info@devstudio.com">nailto:info@devstudio.com"</a></li>
-                                <li class="address-hero" href="tel..+38 096 111 11 11">+38 096 111 11 11</a></li>
-                            </ul>
-                        </address>
-                        <p class="" >підпишіться на розсилку</p>
-                         <input  text="email"   class="input"
-                            name="email"> <br> <br>
-                            <input type="submit" class="submit" 
-                            name="submit" value="підписатися">
-                        
-                            </form>
+        <footer class="footer">
 
-            
+            <div class="contayner flex">
+                <div>
+
+                    <img class="Logoweb" src="./imeges/logo2.png" width="145" height="31">
+                    <address>
+                        <ul class="address1">
+                            <li><a class="address">м. Київ, пр-т Лесі Українки, 26 </a></li>
+                            <li class="address-hero" href="mailto..info@devstudio.com">nailto:info@devstudio.com"</a>
+                            </li>
+                            <li class="address-hero" href="tel..+38 096 111 11 11">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
                 </div>
-            <script src="./modle.js"></script>
+                <div>
+                    <p class="">підпишіться на розсилку</p>
+                    <form>
+                        <input text="email" class="input" name="email"> <br> <br>
+                        <button type="submit" class="submit">
+                            підписатися
+                        </button>
+
+                    </form>
+                </div>
+
+
+            </div>
+        </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-clouse" data-modal-close>x</button>
+                <p class="data">Залиште свої дані ,ми вам передзвонимо</p>
+                <form>
+                    Ім`я : <input type="text" name="fristname"> <br> <br>
+                    Телефон : <input type="text" name="smartphone"> <br> <br>
+                    Пошта : <input type="text" name="email"> <br> <br>
+                    Коментар : <input type="text" class="textcom" name="comment"> <br> <br>
+                    <input type="submit" class="submit" name="submit" value="Відправити">
+                </form>
+            </div>
+        </div>
+
+        <script src="./modle.js"></script>
     </body>
 
 </html>
