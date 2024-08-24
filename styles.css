@@ -33,9 +33,11 @@
 
 
  .header-list {
-     display: flex;
-     flex-wrap: nowrap;
-     gap: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-left: 92px;
+   
 
  }
 
@@ -88,6 +90,8 @@
      color: #ffffff;
      padding-top: 200px;
      padding-bottom: 200px;
+     margin: 0 auto;
+    text-align: center;
 
 
 
@@ -326,8 +330,17 @@
  .buttons {
      display: flex;
      justify-content: center;
+     color: #212121;
      gap: 8px;
      margin-bottom: 50px;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.03em;
+color: #ffffff;
+
+
+
 
 
 
@@ -360,6 +373,22 @@
      padding-bottom: 24px;
      padding-top: 24px;
  }
+
+ .header-logo-link .curent::after {
+    content: ;
+    background-color: #2196F3;
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    display: block;
+    margin-top: 28px;
+    position: absolute;
+
+ }
+ .header-logo-link .curent {
+    color: #2196F3;
+ }
+
 
  footer {
      padding: 60px;
@@ -452,6 +481,11 @@
  }
 
  .submit {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 2px;
      color: #ffffff;
      background-color: #3b8dd0;
      width: 177px;
@@ -462,9 +496,10 @@
 
  .input {
      background: #2F303A;
-     width: 199px;
-     height: 29px;
+     width: 200px;
+     height: 50px;
      color: #ffffff;
+     margin-left: 12px;
 
 
  }
@@ -490,8 +525,58 @@
      font-weight: 700;
      line-height: 30px;
      letter-spacing: 0.06em;
+     
+
 
 
 
 
  }
+
+ .weblogo {
+    font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 30.52px;
+letter-spacing: 0.03em;
+text-align: left;
+
+ }
+ 
+ .li{
+   
+font-size: 16px;
+font-weight: 70;
+line-height: 23px;
+letter-spacing: 0.03em;
+text-align: center;
+background: #F5F4FA;
+color: #000000;
+font-size: 16px;
+border-radius: 3%;
+border-color: #F5F4FA;
+    
+
+
+ }
+ .hero-main {
+    display: flex;
+    gap: 39px;
+    
+  
+
+
+ }
+
+ svg {
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    border-radius: 3px;
+    border: 1px solid #AFB1B8
+    
+
+
+ }
+
+ 
