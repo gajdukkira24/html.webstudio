@@ -22,12 +22,12 @@
     <body>
         <header>
             <div class="contayner flex">
-               
+
 
 
                 <ul class="header-list">
                     <li>
-                        <a href="./index.html"  class="header-logo-link .curent">Студія</a>
+                        <a href="./index.html" class="header-logo-link .curent">Студія</a>
                     </li>
                     <li>
                         <a href="./portfolio.html">Портфоліо</a>
@@ -174,7 +174,7 @@
                             <img src="./imeges/Client 3.png">
                         </li>
                         <li>
-                            <svg>
+                            <svg class="svg">
                                 <use href="./imeges/symbol-defs.svg#icon-Client4"></use>
                             </svg>
                         </li>
@@ -190,7 +190,7 @@
 
                 </div>
 
-                </section>
+            </section>
         </main>
         <footer class="footer">
 
@@ -225,12 +225,19 @@
             <div class="modal">
                 <button class="modal-clouse" data-modal-close>x</button>
                 <p class="data">Залиште свої дані ,ми вам передзвонимо</p>
-                <form>
-                    Ім`я : <input type="text" name="fristname"> <br> <br>
-                    Телефон : <input type="text" name="smartphone"> <br> <br>
-                    Пошта : <input type="text" name="email"> <br> <br>
-                    Коментар : <input type="text" class="textcom" name="comment"> <br> <br>
-                    <input type="submit" class="submit" name="submit" value="Відправити">
+                <form class="modal-from">
+                    <div class="modal-input">
+                        <label class="modal-label">Ім'я <input type="text" class="modal-in"></label>
+                    </div>
+                    <div class="modal-input1">
+                        <label class="modal-label">Телефон <input type="tel" class="modal-in"></label>
+                    </div>
+                    <div class="modal-input1">
+                        <label class="modal-label">Пошта<input type="email" class="modal-in"></label>
+                    </div>
+                    <div class="modal-input1">
+                        <label class="modal-label">Коментар <input type="text" class="modal-in3"></label>
+                    </div>
                 </form>
             </div>
         </div>
