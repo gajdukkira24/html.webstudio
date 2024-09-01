@@ -41,6 +41,16 @@
 
  }
 
+ .header-list1:hover{
+    color: #2196F3;
+    
+ }
+
+ .header-list2:hover{
+    color: #2196F3;
+    
+ }
+
  .container {
      margin: 0 auto;
      padding: 0 15px;
@@ -635,6 +645,15 @@ border-color: #F5F4FA;
  }
 
 
- .header-logo-link .curent::after{
 
+
+ .logo-link:hover{
+    color: #2196F3;
+ }
+
+ .logo-link1:hover{
+    color: #2196F3;
+ }
+ .logo-link2:hover{
+    color: #2196F3;
  }
