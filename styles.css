@@ -646,14 +646,22 @@ border-color: #F5F4FA;
 
 
 
-
  .logo-link:hover{
     color: #2196F3;
  }
+ 
 
  .logo-link1:hover{
     color: #2196F3;
  }
  .logo-link2:hover{
     color: #2196F3;
+ }
+
+ .logo-link::after{
+    transition-property: auto;
+
+    color: #2196F3;
+    
+
  }
