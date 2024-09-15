@@ -691,21 +691,31 @@ border-color: #F5F4FA;
     color: #AFB1B8
  }
 
+ .logo-link::after{
+    color: #2196F3;
+    border-bottom: #2196F3;
 
+ }
 
  .logo-link:hover{
     color: #2196F3;
-    transition-duration: 250ms;
+    transition-duration: 250ms 'cuubic-bezier'(0.4, 0, 0.2, 1);
+    
 
     
  }
- 
+ .logo-link{
+    border-bottom: #000000;
+
+ }
 
  .logo-link1:hover{
     color: #2196F3;
+    transition-duration: 250ms 'cuubic-bezier'(0.4, 0, 0.2, 1);
  }
  .logo-link2:hover{
     color: #2196F3;
+    transition-duration: 250ms  'cuubic-bezier'(0.4, 0, 0.2, 1);
  }
 
  .logo-link:before{
