@@ -362,9 +362,43 @@ color: #ffffff;
      font-weight: 700;
      line-height: 36px;
      letter-spacing: 0.06em;
+     overflow: hidden;
 
  }
+ * {
+    box-sizing: border-box;
+  }
+ 
 
+ .ll{
+    position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #bdbdbd;
+  overflow: hidden;
+ }
+  
+.overlay {
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #3f51b5;
+      
+        transform: translatey(100%);
+        transition: transform 250ms ease-in-out;
+      
+      
+  }
+  .ll:hover .overlay{
+    transform: translatey(0);
+}
+  
+
+  
  .text-portf {
 
      color: #757575;
@@ -705,6 +739,7 @@ border-color: #F5F4FA;
     
  }
  .logo-link{
+  
     border-bottom: #000000;
 
  }
@@ -717,16 +752,11 @@ border-color: #F5F4FA;
     color: #2196F3;
     transition-duration: 250ms  'cuubic-bezier'(0.4, 0, 0.2, 1);
  }
-
- .logo-link:before{
-    transition-property: auto;
-
-    color: #2196F3;
-    
-
- }
  .logo-link::after{
+    position: absolute;
+    display: block;
     color: #2196F3;
+
  }
 
 
@@ -777,4 +807,71 @@ margin-left: 200px;
 
  }
 
+ .hr{
+    width: 72px;
+height: 6px;
+top: 44px;
+gap: 0px;
+border-radius: 4px ;
+opacity: 0px;
+color: #2196F3;
+background-color: #2196F3;
+
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    background-color: #f9f9fd;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .ll {
+    
+    width: 370px;
+    height: 394px;
+    background-color: #f5f7fd;
+   
+    
+
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75% ;
+    background: #2196F3E5;
+
+  
+    transform: translatey(-100%);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .ll:hover .overlay {
+    transform: translatey(3);
+  }
+  
+  .overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+   
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.03em;
+align-content: center;
+
+  }
  
