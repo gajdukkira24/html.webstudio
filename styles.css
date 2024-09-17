@@ -733,7 +733,8 @@ border-color: #F5F4FA;
 
  .logo-link:hover{
     color: #2196F3;
-    transition-duration: 250ms 'cuubic-bezier'(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
     
 
     
@@ -746,11 +747,13 @@ border-color: #F5F4FA;
 
  .logo-link1:hover{
     color: #2196F3;
-    transition-duration: 250ms 'cuubic-bezier'(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
  }
  .logo-link2:hover{
     color: #2196F3;
-    transition-duration: 250ms  'cuubic-bezier'(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
  }
  .logo-link::after{
     position: absolute;
@@ -775,6 +778,9 @@ border-color: #F5F4FA;
  .li:hover{
     color: #ffffff;
     background-color: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+
    
 
  }
