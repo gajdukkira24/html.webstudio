@@ -546,7 +546,10 @@ color: #ffffff;
      fill: #000000;
      transition-property: color;
      transition-duration: 250ms;
+     transform: scale(1);
+     opacity: calc(1);
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+      
     
     
      
@@ -891,10 +894,12 @@ background-color: #2196F3;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translatey(-100%);
     transition: transform 250ms ease-in-out;
+    
   }
   
   .ll:hover .overlay {
-    transform: translatey(3);
+    transform: translatey(1);
+   
   }
   
   .overlay p {
@@ -909,4 +914,10 @@ letter-spacing: 0.03em;
 align-content: center;
 
   }
- 
+  
+
+  .ll:hover{
+    box-shadow: 1px 1px 10px gray;
+    
+
+  }
