@@ -510,6 +510,8 @@ color: #ffffff;
      border-radius: 4px;
      transform: translate(-50%, -60%);
      margin-left: 7px;
+     box-shadow: 3px  0px 3px;
+
 
 
  }
@@ -538,11 +540,12 @@ color: #ffffff;
      position: absolute;
      width: 30px;
      height: 30px;
-     border-radius: 66;
+     border-radius: 66px;
      background: none;
      border: 1px solid rgba(0, 0, 0, 0.1);
      display: flex;
      justify-content: center;
+     
      fill: #000000;
      transition-property: color;
      transition-duration: 250ms;
