@@ -511,9 +511,7 @@ color: #ffffff;
      margin-left: 7px;
      box-shadow: 3px  0px 3px;
      padding: 40px;
-     transform: scale(1);
-     opacity: calc(1);
-      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+     
 
 
 
@@ -551,15 +549,18 @@ color: #ffffff;
      
      fill: #000000;
      transition-property: color;
+     opacity: calc(1);
      transition-duration: 250ms;
      transform: scale(1);
-     opacity: calc(1);
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
-      
-    
-    
-     
 
+ }
+ .backdrop  {
+    transition-property: color;
+    opacity: calc(1);
+    transition-duration: 250ms;
+    transform: scale(1);
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
  }
  .modal-clouse:hover{
     color: #3b8dd0;
