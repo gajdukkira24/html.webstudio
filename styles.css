@@ -495,6 +495,10 @@ color: #ffffff;
      background-color: rgba(0, 0, 0, 0.33);
      opacity: 1;
      visibility: visible;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     transform: translatey(-100%);
+     transition: transform 250ms ease-in-out;
+ 
  }
 
  .modal {
@@ -511,6 +515,7 @@ color: #ffffff;
      margin-left: 7px;
      box-shadow: 3px  0px 3px;
      padding: 40px;
+    
      
 
 
@@ -521,6 +526,9 @@ color: #ffffff;
      opacity: 0;
      pointer-events: none;
      overflow: hidden;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translatey(-100%);
+    transition: transform 250ms ease-in-out;
 
  }
 
@@ -700,6 +708,8 @@ border: 1px 0px 0px 0px;
      font-weight: 700;
      line-height: 30px;
      letter-spacing: 0.06em;
+     border-radius: 8px;
+     border-color: #3b8dd0;
      
 
 
