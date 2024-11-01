@@ -254,6 +254,7 @@
      line-height: 42.19px;
      letter-spacing: 0.03em;
      text-align: center;
+     border-bottom: 10px;
 
 
 
@@ -283,6 +284,7 @@
      font-weight: 700;
      line-height: 16.41px;
      letter-spacing: 0.03em;
+     border-bottom: 20px;
 
  }
 
@@ -293,6 +295,8 @@
      font-weight: 500;
      line-height: 18.75px;
      letter-spacing: 0.03em;
+     background-color: white;
+  
 
  }
 
@@ -303,6 +307,8 @@
      font-weight: 400;
      line-height: 18.75px;
      letter-spacing: 0.03em;
+     background-color: white;
+    
 
  }
 
@@ -500,6 +506,13 @@ color: #ffffff;
      transition: transform 250ms ease-in-out;
  
  }
+ .backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  
+  .no-scroll {
+    overflow: hidden;
+  }
 
  .modal {
     position: absolute;
@@ -570,13 +583,16 @@ color: #ffffff;
 
  }
  .backdrop  {
-    transition-property: color;
-    translate: scale(x,y);
-    opacity: calc(1);
-    transition-duration: 250ms;
-     transition:
-    opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms,
-    visibility 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition:
+      opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms,
+      visibility 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
  }
  .modal-clouse:hover{
     color: #3b8dd0;
@@ -782,6 +798,10 @@ border-color: #F5F4FA;
  .header-logo-link::after{
     color: #2196F3;
     border-bottom: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transform: translatey(-100%);
+   transition: transform 250ms ease-in-out;
 
  }
 
@@ -790,9 +810,11 @@ border-color: #F5F4FA;
     transition-property: color;
     opacity: calc(1);
     translate: scale(x,y);
-    transition-duration: 250ms;
     transform: scale(1);
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translatey(-100%);
+    transition: transform 250ms ease-in-out;
     
 
     
@@ -947,18 +969,23 @@ align-content: center;
     transition-property: color;
     opacity: calc(1);
     translate: scale(x,y);
-    transition-duration: 250ms;
     transform: scale(1);
-     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   transform: translatey(-100%);
+   transition: transform 250ms ease-in-out;
+     
  }
  .header-logo-link2:hover{
     color: #2b98f2;
    transition-property: color;
    opacity: calc(1);
    translate: scale(x,y);
-   transition-duration: 250ms;
    transform: scale(1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translatey(-100%);
+  transition: transform 250ms ease-in-out;
  }
  .header-logo-link::after{
     position: absolute;
@@ -976,4 +1003,120 @@ align-content: center;
 
  }
 
+ 
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 100%;
+}
+
+
+@media (min-width: 480px) {
+    .container {
+        flex-direction: row;
+        padding: 2em;
+    }
+
+    .header {
+        font-size: 1.5em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        padding: 3em;
+    }
+
+    .header {
+        font-size: 2em;
+    }
+
+    .main-content {
+        flex: 1;
+        padding: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4em;
+    }
+
+    .header {
+        font-size: 2.5em;
+    }
+}
+
+.src1{
+    margin-bottom: 30px;
+}
+.src2{
+    margin-bottom: 25px;
+    width: 270px;
+}
+
+.features-text{
+    color: #757575;
+
+}
+
+.svg1{
+
+        width: 270em;
+        height: 92px;
+        fill: #AFB1B8;
+        
+      
+}
+.svg2{
+
+    width: 270em;
+    height: 92px;
+    fill: #AFB1B8;
+    
+  
+}
+.svg3{
+
+    width: 270em;
+    height: 92px;
+    fill: #AFB1B8;
+    
+  
+}
+
+.svg4{
+
+    width: 270em;
+    height: 92px;
+    fill: #AFB1B8;
+    
+  
+}
+.svg5 {
+
+    width: 270em;
+    height: 92px;
+    fill: #AFB1B8;
+    
+  
+}
+.svg6 {
+
+    width: 270em;
+    height: 92px;
+    fill: #AFB1B8;
+    
+  
+}
